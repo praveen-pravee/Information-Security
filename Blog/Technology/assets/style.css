@@ -7,16 +7,36 @@
 body {
     background-color: black;
     color: whitesmoke;
-    padding: 50px;
+    padding: 20px;
     margin: 10px;
 }
-h1 {
-    font-size: 50px;   
+.main {
+    padding: 20px;
+}
+header > h1 {
+    font-size: 5rem;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+header > h1:hover {
+    background-color: rgb(0, 255, 0);
+    color: white;
+}
+.content > h1 {
+    font-size: 3rem;
+    margin-left: 11px;
+    width: 11%;
+}
+.content > h1:hover {
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
 }
 p {
     font-size: 36px;
     padding-left: 11px;
-    padding-top: 11px;
+    padding-top: 15px;
 }
 article {
     text-align: center;
@@ -27,43 +47,54 @@ article {
     position: relative;
     left: 33%;
 }
+a {
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+footer > p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: -20px;
+}
 article:hover {
-    background-color: green;
+    background-color:rgb(0, 255, 0);
     color: whitesmoke;
 }
 .one:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .two:hover {
-    color: green;
+    color:rgb(0, 255, 0);
 }
 .three:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .four:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .five:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .six:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .seven:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .eight:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .nine:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .ten:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .last:hover {
-    color: green;
+    color: rgb(0, 255, 0);
 }
 .day {
-    color: green;
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+    text-underline-offset: 1rem;  
 }
