@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 60px;
+}
+header {
+	font-size: 50px;	
+	font-weight: bold;
+}	
+.toc {
+	position: relative;
+	margin: 11px;
+	width: 30%;
+	max-width: 30%;
+	height: 60vh;
+	background: ;	
+	padding: 33px;
+	display: block;
+}
+h2 {
+	position: relative;
+	top: -10px;
+	left: -20px;
+	font-size: 25px;
+}	
+ul {
+	padding-left: 20px; 	
+}
+li {
+	padding: 10px;
+}
+h1 {
+	font-size: 30px;
+}
+p {
+	width: 100%;
+	position: relative;
+	top: 20px;
+	font-size: 25px;
+	padding: 10px;
+	line-height: 35px ;
+}	
