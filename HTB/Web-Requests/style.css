@@ -5,37 +5,50 @@
 }
 body {
 	margin: 60px;
-	background-color: #39ff14;
-	color: black;
+	background-color: lemonchiffon;
+	color: ;
 }
 header {
 	font-size: 50px;	
 	font-weight: bold;
+	text-decoration: underline;
+	text-underline-offset: 10px;
 }	
 .toc {
 	position: relative;
 	margin: 11px;
 	width: 30%;
-	max-width: 30%;
 	height: 60vh;
 	background: ;	
 	padding: 33px;
 	display: block;
+	background-color: grey;
 }
 h2 {
 	position: relative;
 	top: -10px;
 	left: -20px;
 	font-size: 25px;
-}	
+}
+a {
+	color: black;
+	text-decoration: none;
+}
 ul {
 	padding-left: 20px; 	
 }
 li {
 	padding: 10px;
 }
+li:hover {
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
 h1 {
 	font-size: 30px;
+	color: ;
+	text-decoration: underline;
+	text-underline-offset: 7px;
 }
 p {
 	width: 100%;
@@ -74,7 +87,7 @@ td {
 	border: 3px solid black;
 }
 tr:nth-child(odd) {
-	background-color: ;
+	background-color: honeydew;
   }
   tr:nth-child(even) {
 	background-color: ;
