@@ -5,6 +5,8 @@
 }
 body {
 	margin: 60px;
+	background-color: #39ff14;
+	color: black;
 }
 header {
 	font-size: 50px;	
@@ -71,26 +73,46 @@ td {
 	padding: 20px;
 	border: 3px solid black;
 }
-tr:nth-child(even) {
-	background-color: #dddddd;
+tr:nth-child(odd) {
+	background-color: ;
   }
- code {
+  tr:nth-child(even) {
+	background-color: ;
+  }
+code {
   background-color: black;
   color: white;
   padding: 10px;	
- }
+}
 .example {
   position: relative;
   left: 25px;
   }
-  iframe {
+ iframe {
   	position: relative;
   	top: 25px;
   	left: 50px;
-  }
-section{
-	position: relative;
-	top: 10px;
-	left: 20px;
-	display: inline;
-}
+ }
+ .code {
+ 	font-size: 20px;
+ 	position: relative;
+ 	top: 30px;
+ 	left: 50px;
+ 	padding: 15px;
+ }
+ .codetwo {
+ 	font-size: 20px;
+ 	position: relative;
+ 	top: 33px;
+ 	left: 50px;
+ 	padding: 15px;
+ }
+ .frame {
+ 	position: relative;
+ 	top: 10px;
+ 	left: 15%;
+ 	width: 70%;
+ 	height: 50vh;
+ 	padding: 44px;
+ 	padding-left: 44px;
+ }

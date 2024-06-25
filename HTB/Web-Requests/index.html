@@ -25,7 +25,7 @@
         </ul>
     </ol> 
   </div>
-  <section id="HTTP-Fundamentals">
+  <section id="#HTTP-Fundamentals">
     <h1>HyperText Transfer Protocol (HTTP)</h1>
       <p>Today, the majority of the applications we use constantly interact with the internet, both web and mobile applications. Most internet communications are made with web requests through the HTTP protocol. HTTP is an application-level protocol used to access the World Wide Web resources. The term hypertext stands for text containing links to other resources and text that the readers can easily interpret.</p>
       <p>
@@ -97,7 +97,7 @@
   <code>curl www.example.com</code>  
   <code class="example">curl example.com -v</code>
   
-  <iframe src="./assets/code.html" style="border:none; width="20%" height="75px" title="Codes"></iframe>
+  <iframe src="./assets/code.html" style="border:none"; width="20%" height="75px" title="Codes"></iframe>
   </p>
   <br>
   <p>We see that cURL does not render the HTML/JavaScript/CSS code, unlike a web browser, but prints it in its raw format. However, as penetration testers, we are mainly interested in the request and response context, which usually becomes much faster and more convenient than a web browser.
@@ -106,9 +106,26 @@
   We may also use cURL to download a page or a file and output the content into a file using the -O flag. If we want to specify the output file name, we can use the -o flag and specify the name. Otherwise, we can use -O and cURL will use the remote file name, as follows:
   </p>
   <br>
-  <section>
-    <code>curl -O example.com</code>
-    <code>curl -s -O example.com</code>
-  </section>
+    <code class="code">curl -O example.com</code>
+  <br>
+  <br>
+  <p>
+    As we can see, the output was not printed this time but rather saved into index.html. We noticed that cURL still printed some status while processing the request. We can silent the status with the -s flag, as follows:
+  </p>
+    <code class="codetwo">curl -s -O example.com</code>
+    <br>
+    <br>
+    <br>
+  <p>
+    This time, cURL did not print anything, as the output was saved into the index.html file. Finally, we may use the -h flag to see what other options we may use with cURL:
+  </p>
+  <iframe src="./assets/curl.html" class="frame" style="border:none"; title="Codes"></iframe>
+  <br>
+  <p>
+    As the above message mentions, we may use --help all to print a more detailed help menu, or --help category (e.g. -h http) to print the detailed help of a specific flag. If we ever need to read more detailed documentation, we can use man curl to view the full cURL manual page.
+    <br>
+    <br>
+    In the upcoming sections, we will cover most of the above flags and see where we should use each of them.
+  </p>
 </body> 
 </html>
