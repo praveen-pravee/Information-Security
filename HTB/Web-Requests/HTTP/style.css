@@ -13,16 +13,11 @@ header {
 	font-weight: bold;
 	text-decoration: underline;
 	text-underline-offset: 10px;
+	text-align: center;
 }	
-.toc {
+section {
 	position: relative;
-	margin: 11px;
-	width: 30%;
-	height: 60vh;
-	background: ;	
-	padding: 33px;
-	display: block;
-	background-color: grey;
+	top: 30px;
 }
 h2 {
 	position: relative;
