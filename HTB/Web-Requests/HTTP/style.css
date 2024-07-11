@@ -57,6 +57,12 @@ img {
 	position: ;
 	top: 30px;
 }
+.flow {
+	position: relative;
+	width: 50%;
+	height: auto;
+	left: 100px;
+}
 .url {
 	position: relative;
 	width: 70%;
